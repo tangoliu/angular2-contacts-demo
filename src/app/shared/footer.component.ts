@@ -14,6 +14,6 @@ export class FooterComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.isListPage = this._location.path() == '' || this._location.path().indexOf('/list') > -1 
+    this.isListPage = this._location.path() == '' || this._location.path().indexOf('/list') > -1  //引入路由的Location，应用判断当前的页面是不是list页面
   }
 }
