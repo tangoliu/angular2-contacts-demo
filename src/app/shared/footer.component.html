@@ -2,7 +2,7 @@
   <a [routerLink]=" ['/collection'] " [ngClass]="{clickOn: !isListPage}">
     <i>收藏</i>
   </a>
-  <a [routerLink]=" ['/list']" [ngClass]="{clickOn: isListPage}">
+  <a [routerLink]=" ['/list']" [ngClass]="{clickOn: isListPage}">  //如果当前页面是List页面，则将clickOn事件添加到a标签中；如果点击了a标签，则路由导航到List页面
     <em></em>
     <i>通讯录</i>
   </a>
